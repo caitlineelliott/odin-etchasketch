@@ -1,0 +1,23 @@
+.container {
+    background-color: red;
+    width: calc(32px * 16);
+    height: calc(32px * 16);
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.grid-square {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.grid-square:hover {
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+}
