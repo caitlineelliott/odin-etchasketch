@@ -1,17 +1,14 @@
 .container {
-    background-color: red;
-    width: calc(32px * 16);
-    height: calc(32px * 16);
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
+    border: 1px solid black;
 }
 
-.grid-square {
-    width: 32px;
-    height: 32px;
-    background-color: white;
+.grid-square { 
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .grid-square:hover {

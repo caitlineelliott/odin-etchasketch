@@ -1,11 +1,14 @@
 const container = document.querySelector('.container');
-const gridSize = 16;
+const containerSize = 500;
+let gridSize = 16;
 
 const creatGridRow = () => {
     for (let i = 0; i < gridSize; i++) {
-        const gridDiv = document.createElement('div')
-        gridDiv.classList.add('grid-square')
-        container.appendChild(gridDiv)
+        const gridSquare = document.createElement('div')
+        gridSquare.style.width = `${containerSize / gridSize}px`;
+        gridSquare.style.height = `${containerSize / gridSize}px`;
+        gridSquare.classList.add('grid-square')
+        container.appendChild(gridSquare)
     }
 }
 
