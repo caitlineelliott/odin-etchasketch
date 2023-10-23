@@ -1,13 +1,13 @@
 .container {
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
 }
 
 .btn-container {
-    width: 500px;
+    width: 800px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
