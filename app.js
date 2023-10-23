@@ -26,11 +26,11 @@ gridSquares.forEach(gridSquare => {
     gridSquare.addEventListener('mouseenter', () => {
         gridSquare.classList.add('black')
     })
-
-    gridSquare.addEventListener('mouseleave', () => {
-
-        setTimeout(() => {
-            gridSquare.classList.remove('black')
-        }, 500)
-    })
 })
+
+
+const resetGrid = () => {
+    gridSquares.forEach(gridSquare => {
+        gridSquare.classList.remove('black')
+    })
+}
